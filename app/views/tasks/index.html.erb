@@ -14,9 +14,9 @@
   <br>
   <%= f.label :status, 'ステータス' %>
   <%= f.radio_button :status_eq, '' %>指定しない
-  <%= f.radio_button :status_eq, 'todo' %>todo
-  <%= f.radio_button :status_eq, 'doing' %>doing
-  <%= f.radio_button :status_eq, 'done' %>done
+  <%= f.radio_button :status_eq, '0' %>todo
+  <%= f.radio_button :status_eq, '1' %>doing
+  <%= f.radio_button :status_eq, '2' %>done
   <%= f.submit '検索' %>
 <% end %>
 
